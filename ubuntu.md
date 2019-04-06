@@ -37,7 +37,7 @@ sudo nano /etc/fstab
 - Util
 ``` bash
 ###Delete Files with regular expression
-ls | grep -P "^A.*[0-9]{2}$" | xargs -d"\n" rm
+ls | grep -P "^NAME.*[0-9]{2}$" | xargs -d"\n" rm
 [bash - Delete files with regular expression - Super User](https://superuser.com/questions/392872/delete-files-with-regular-expression)
 ### Copy files
 scp yhong@192.168.0.101:file.txt /destination/dir
