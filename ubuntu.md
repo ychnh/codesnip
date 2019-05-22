@@ -1,4 +1,7 @@
 # Linux Useful commands
+search for sshable computers on the local network
+- sudo nmap -sS -p 22 192.168.1.0/24
+
 - ssh yhong@192.168.0.105
 - super user
  `sudo -i` 
