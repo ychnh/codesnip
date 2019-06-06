@@ -3,7 +3,7 @@ search for sshable computers on the local network
 ```
 - ifconfig
 inet 172.30.1.39 netmask 0xffffff00 broadcast 172.30.1.255
-- sudo nmap -sS -p 22 192.168.1.0/24
+- sudo nmap -sS -p 22 172.30.1.0/24
 ```
 
 - ssh yhong@192.168.0.105
