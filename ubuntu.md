@@ -100,3 +100,8 @@ sudo mkfs -t ext4 /dev/sdb1
 
 - Add hard drive
 - [How do I increase console-mode resolution? - Ask Ubuntu](https://askubuntu.com/questions/18444/how-do-i-increase-console-mode-resolution)
+
+
+# Country Code and Setup 
+- /etc/apt/sources.list
+- deb http://us.archive.ubuntu.com/ubuntu/ xenial main restricted (Change us to kr)
