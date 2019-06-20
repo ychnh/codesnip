@@ -1,3 +1,8 @@
+m {a-z A-Z} Set bookmark
+:marks
+` {a-z A-Z} Jump bookmark
+
+
 <h v jk ^ l>
 
 dd delete line
