@@ -105,3 +105,8 @@ sudo mkfs -t ext4 /dev/sdb1
 # Country Code and Setup 
 - /etc/apt/sources.list
 - deb http://us.archive.ubuntu.com/ubuntu/ xenial main restricted (Change us to kr)
+
+# Edit and remove apt-get
+apt-get remove pkg
+apt-get autoremove
+apt-get purge pkg
