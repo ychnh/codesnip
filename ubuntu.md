@@ -16,7 +16,7 @@ sudo nmap -sS -p 22 172.30.1.0/24
 ### Ram/CPU/GPU
 free -m
 ps ax
-htop
+top (press e to cycle btw readable values)
 nvidia-smi
 #Disk space
 df -h --total
