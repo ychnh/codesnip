@@ -20,7 +20,7 @@ top (press e to cycle btw readable values)
 nvidia-smi
 #Disk space
 df -h --total
-du
+du -hs 
 #Disk Drives / mount
 fdisk -l
 mount /dev/sd** /media/usb
