@@ -1,3 +1,17 @@
+Q<letter> Record
+Q end Record
+@<letter> Play Recording
+  
+K Vim Doc
+
+I insert at start of line
+A append at end of line
+
+:badd
+:buffers
+:buffer
+
+
 m {a-z A-Z} Set bookmark
 :marks
 ` {a-z A-Z} Jump bookmark
