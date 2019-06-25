@@ -77,6 +77,11 @@ rm -r directory
 
 ```
 ###Format Drives
+1) List hardrives
+sudo lsblk -o NAME,FSTYPE,SIZE,MOUNTPOINT,LABEL
+
+
+
 sudo parted /dev/sdb
 2) Create a new GPT disklabel (aka partition table):
 
