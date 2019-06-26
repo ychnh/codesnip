@@ -1,8 +1,8 @@
 # Linux Useful commands
 
-let the program to do one thing and do it well (single responsibility principle)
-make it abstract enough to be agnostic of irrelevant details or data types
-compose separate individual programs using standard well-defined interfaces.
+- let the program to do one thing and do it well (single responsibility principle)
+- make it abstract enough to be agnostic of irrelevant details or data types
+- compose separate individual programs using standard well-defined interfaces.
 
 - search for sshable computers on the local network
 ```
