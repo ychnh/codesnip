@@ -4,7 +4,8 @@
 - make it abstract enough to be agnostic of irrelevant details or data types
 - compose separate individual programs using standard well-defined interfaces.
 
-- search for sshable computers on the local network
+- search for sshable computers on the local networ
+
 ```
 ifconfig
  . inet 172.30.1.39 netmask 0xffffff00 broadcast 172.30.1.255
@@ -34,7 +35,8 @@ unmount -l /media/usb
 ### Kill -9 is quite dangerous
 killall -9 python
 
-
+- Symbolic links
+ln -s /media/files/tb-prod/files files (-s create -sf change)
 ```
 - Environment
 ```
