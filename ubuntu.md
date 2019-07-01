@@ -12,6 +12,11 @@ ifconfig
 sudo nmap -sS -p 22 172.30.1.0/24
 ```
 
+## Clone File Directory Structure
+- sudo sshfs -o allow_other sijin@xxx.xxx.xxx.xxx:/ /mnt/droplet
+- sudo umount /mnt/droplet
+
+
 - scp -P portnumb -r yhong@123.123.123.1.:/source /dest
 - scp -P portnumb -r /source yhong@123.123.123.1.:/dest
 - ssh yhong@192.168.0.105
