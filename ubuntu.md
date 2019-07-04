@@ -13,7 +13,7 @@ sudo nmap -sS -p 22 172.30.1.0/24
 ```
 
 ## Clone File Directory Structure
-- sudo sshfs -o allow_other sijin@xxx.xxx.xxx.xxx:/ /mnt/droplet
+- sudo sshfs -o allow_other sijin@xxx.xxx.xxx.xxx:/home/sijin /mnt/droplet
 - sudo umount /mnt/droplet
 
 
