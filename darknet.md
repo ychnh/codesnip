@@ -11,3 +11,23 @@
 
 # Key points
 * The input size is really important. Because it really helps to detect.
+
+
+# Project Flow
+* First week 
+
+* Intial read of literature
+  * Haar method
+* Open CV2
+  
+* Research on image processing and different networks
+  * Reading papers of RCNN, Fast RCNN, Faster RCNN
+* Inspected various datasets
+   * INRIA, CityScapes, Caltech Ped, Kaist Ped
+* Subjected preliminary tests and model evaluation
+  * Differences between INRIA and Caltech Ped
+
+* Alot of hang time on setting up/ getting comfortable with remote desktop workflows
+
+* Research on Yolo
+  * Comparing different
