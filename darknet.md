@@ -7,6 +7,7 @@
 * [yolo output in details](https://timebutt.github.io/static/understanding-yolov2-training-output/)
 * [yolo output specifics](https://github.com/AlexeyAB/darknet/issues/636)
 * [yolo learning rate](https://github.com/pjreddie/darknet/issues/701)
+* [yolo training your own](https://github.com/AlexeyAB/darknet#how-to-train-to-detect-your-custom-objects)
 
 
 # Key points
