@@ -17,8 +17,10 @@
 * First week 
 
 * Intial read of literature
-  * Haar method
-* Open CV2
+
+* Try different methods
+  * Hog (Haar) method
+  * Cascade method
   
 * Research on image processing and different networks
   * Reading papers of RCNN, Fast RCNN, Faster RCNN
