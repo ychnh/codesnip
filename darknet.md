@@ -3,6 +3,11 @@
 * Command for outputting at lower threshold for results
 
 
+# Custom cfg comparision
+* custom removed anchors 1603/8.7 = 184.2 on 1 card
+* default 1603/10.2 = 157.1 on 1 card
+* custom kept anchors 
+
 # Links
 * [yolo output in details](https://timebutt.github.io/static/understanding-yolov2-training-output/)
 * [yolo output specifics](https://github.com/AlexeyAB/darknet/issues/636)
