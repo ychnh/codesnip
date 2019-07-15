@@ -6,6 +6,10 @@
 # Custom cfg comparision
 * custom removed anchors 1603/8.7 = 184.2 on 1 card
 * default 1603/10.2 = 157.1 on 1 card
+
+But the performance of default much better. (Maybe it was trained for longer?)
+It was alot worse.
+
 * custom kept anchors 
 
 # Links
