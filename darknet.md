@@ -2,6 +2,8 @@
 * ./darknet detector train cfg/caltech.data cfg/yolov3-tiny.cfg weights/yolov3-tiny.weights -clear 1
 * Command for outputting at lower threshold for results
 
+* while train use -gpus # to utilize multi gpu training
+* while valid use -i # to specify the gpu number
 
 # Custom cfg comparision
 * custom removed anchors 1603/8.7 = 184.2 on 1 card
