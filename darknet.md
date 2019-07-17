@@ -20,6 +20,8 @@ It was alot worse.
 * [yolo learning rate](https://github.com/pjreddie/darknet/issues/701)
 * [yolo training your own](https://github.com/AlexeyAB/darknet#how-to-train-to-detect-your-custom-objects)
 
+* [cctv locations 5000](http://gis.daejeon.go.kr/ispmap.do?menu_cde=menu006#)
+
 
 # Key points
 * The input size is really important. Because it really helps to detect.
