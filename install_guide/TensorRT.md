@@ -7,7 +7,7 @@
 * follow instructions on https://docs.nvidia.com/deeplearning/sdk/tensorrt-install-guide/index.html#installing-tar
 
 # Results
-''''
+'''
 pycuda (2019.1.1)  
 NOTE: UFF has been tested with TensorFlow 1.12.0. Other versions are not guaranteed to work
 
@@ -22,4 +22,4 @@ TensorRT test
 
 
 export LD_LIBRARY_PATH='/usr/local/cuda-10.1/lib64:/home/sijin/local/TensorRT-5.1.2.2/lib'
-''''
+'''
