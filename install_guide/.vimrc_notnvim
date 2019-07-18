@@ -46,7 +46,7 @@ Plug 'plasticboy/vim-markdown'
 call plug#end()
 
 "Plugin Config -----------------------
-autocmd BufEnter * call ncm2#enable_for_buffer()
+"autocmd BufEnter * call ncm2#enable_for_buffer()
 
 " Linting
 " let b:ale_linters = ['flake8', 'pylint']
