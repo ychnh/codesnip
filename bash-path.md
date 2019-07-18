@@ -2,6 +2,7 @@
 * a=$(pwd)
 * $a
 
+* source .bash_rc
 # bash_profile
 * export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/sijin/local/bin/usr/lib64
 
