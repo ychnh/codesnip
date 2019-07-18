@@ -21,5 +21,5 @@ TensorRT test
 ======================================================= 29 passed, 1 warnings in 42.76 seconds ====
 
 
-export LD_LIBRARY_PATH='/usr/local/cuda-10.1/lib64:/home/sijin/local/TensorRT-5.1.2.2/lib'
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/sijin/local/TensorRT-5.1.5.0/lib
 ```
