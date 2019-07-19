@@ -1,5 +1,5 @@
 # Linux Useful commands
-
+- https://unix.stackexchange.com/questions/159513/what-are-the-shells-control-and-redirection-operators
 - let the program to do one thing and do it well (single responsibility principle)
 - make it abstract enough to be agnostic of irrelevant details or data types
 - compose separate individual programs using standard well-defined interfaces.
