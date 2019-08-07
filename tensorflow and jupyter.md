@@ -5,6 +5,9 @@
 
 -N flag to avoid opening an ssh shell. Adding -f puts process in background
 
+# Jupyter
+* Change Theme
+* jt -t chesterish
 
 * jupyter notebook --port 8887
 * ssh -L localhost:8888:localhost:8887 yhong@192.168.0.17
