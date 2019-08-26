@@ -10,7 +10,7 @@
 * jt -t chesterish
 
 * jupyter notebook --port 8887
-* ssh -L localhost:8888:localhost:8887 yhong@192.168.0.17
+* ssh -L localhost:8888:localhost:8887 yhong@192.168.0.17 -p ##
 
 * ~/.jupyter/custom/
   * wget https://raw.githubusercontent.com/draperjames/one-dark-notebook/master/custom.css
