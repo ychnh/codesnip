@@ -18,3 +18,6 @@
 * Type git add to add all of the relevant files.
 * You’ll probably want to create a .gitignore file right away, to indicate all of the files you don’t want to track. Use git add .gitignore, too.
 * Type git commit
+
+* git remote add origin git@github.com:ychnh/landcover.git
+* git push -u origin master
