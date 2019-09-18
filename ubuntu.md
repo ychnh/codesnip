@@ -1,3 +1,8 @@
+### Large Directories
+```
+du -a /home | sort -n -r | head -n 5
+```
+
 # Linux Useful commands
 - https://unix.stackexchange.com/questions/159513/what-are-the-shells-control-and-redirection-operators
 - let the program to do one thing and do it well (single responsibility principle)
