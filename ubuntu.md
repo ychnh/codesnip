@@ -1,19 +1,21 @@
-### Large Directories
-```
-du -a /home | sort -n -r | head -n 5
-```
-
-# Linux Useful commands
-- https://unix.stackexchange.com/questions/159513/what-are-the-shells-control-and-redirection-operators
+# Linux Philosophy
 - let the program to do one thing and do it well (single responsibility principle)
 - make it abstract enough to be agnostic of irrelevant details or data types
 - compose separate individual programs using standard well-defined interfaces.
 
-- search for sshable computers on the local networ
+- https://unix.stackexchange.com/questions/159513/what-are-the-shells-control-and-redirection-operators
+# Linux Useful commands
+
+### Find Large Directories
+```
+du -a /home | sort -n -r | head -n 5
+```
+## Network
+# Find SSH Host
 
 ```
 ifconfig
- . inet 172.30.1.39 netmask 0xffffff00 broadcast 172.30.1.255
+$ inet 172.30.1.39 netmask 0xffffff00 broadcast 172.30.1.255
 sudo nmap -sS -p 22 172.30.1.0/24
 ```
 
