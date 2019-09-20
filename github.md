@@ -1,4 +1,9 @@
 # Github 
+## Password
+```
+git config --global credential.helper store
+git pull
+```
 - git submodule add https://github.com/chaconinc/DbConnector
 
 - git source url
