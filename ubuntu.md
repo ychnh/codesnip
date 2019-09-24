@@ -28,6 +28,7 @@ sudo nmap -sS -p 22 172.30.1.0/24
 - scp -P portnumb -r yhong@123.123.123.1.:/source /dest
 - scp -P portnumb -r /source yhong@123.123.123.1.:/dest
 - ssh yhong@192.168.0.105
+- ssh -L localhost:8888:localhost:8887 yhong@cjy9306.iptime.org -p 13532
 - super user
  `sudo -i` 
 - Resource Management
