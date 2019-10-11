@@ -34,6 +34,7 @@ sudo nmap -sS -p 22 172.30.1.0/24
 - Resource Management
 ``` bash
 ### Ram/CPU/GPU
+lscpu
 free -m
 ps ax
 top (press e to cycle btw readable values)
