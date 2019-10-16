@@ -14,3 +14,8 @@
 
 * ~/.jupyter/custom/
   * wget https://raw.githubusercontent.com/draperjames/one-dark-notebook/master/custom.css
+## Kill
+* fuser 8888/tcp
+* kill -9 PID
+* or
+* jupyter notebook stop 8888
