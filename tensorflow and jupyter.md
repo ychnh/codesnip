@@ -19,3 +19,13 @@
 * kill -9 PID
 * or
 * jupyter notebook stop 8888
+
+# Jupyter Lab
+## Install
+* sudo apt-get install curl
+* curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+* sudo apt-get install nodejs
+## Widgets for Dashboard
+* pip install ipywidgets
+* jupyter nbextension enable --py widgetsnbextension
+
