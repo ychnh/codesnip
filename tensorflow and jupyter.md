@@ -29,7 +29,22 @@
 * pip install ipywidgets
 * jupyter nbextension enable --py widgetsnbextension
 
+## Workspaces
+* Clone workspaces
+* http(s)://<server:port>/<lab-location>/lab/workspaces/bar?clone=foo
+* http(s)://<server:port>/<lab-location>/lab/workspaces/foo?clone
+* Reset
+* http(s)://<server:port>/<lab-location>/lab/workspaces/foo?reset
+* Exists functionality for creating/exporting work spaces
+* Checking workspaces
+```
+import os, glob, json
+for fname in glob.glob(os.path.join(os.environ['HOME'], ".jupyter/lab/workspaces/*")):
+     with open (fname, "r") as read_file:
+         print (json.load(read_file)['metadata']['id'])
+```
 ## Hotkeys
+* Max size
 ```
 {
     "shortcuts": [        
