@@ -29,3 +29,17 @@
 * pip install ipywidgets
 * jupyter nbextension enable --py widgetsnbextension
 
+## Hotkeys
+```
+{
+    "shortcuts": [        
+        {
+            "command": "application:toggle-mode",
+            "keys": [
+                "Accel M"
+            ],
+            "selector": "body"
+        }
+    ]
+}
+```
