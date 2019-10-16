@@ -30,13 +30,15 @@
 * jupyter nbextension enable --py widgetsnbextension
 
 ## Workspaces
-* Clone workspaces
+### Clone workspaces
 * http(s)://<server:port>/<lab-location>/lab/workspaces/bar?clone=foo
 * http(s)://<server:port>/<lab-location>/lab/workspaces/foo?clone
-* Reset
+ 
+### Reset
 * http(s)://<server:port>/<lab-location>/lab/workspaces/foo?reset
 * Exists functionality for creating/exporting work spaces
-* Checking workspaces
+ 
+### Checking workspaces
 ```
 import os, glob, json
 for fname in glob.glob(os.path.join(os.environ['HOME'], ".jupyter/lab/workspaces/*")):
