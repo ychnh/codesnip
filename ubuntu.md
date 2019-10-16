@@ -18,6 +18,7 @@ ifconfig
 $ inet 172.30.1.39 netmask 0xffffff00 broadcast 172.30.1.255
 sudo nmap -sS -p 22 172.30.1.0/24
 ```
+- grep pattern -r --include=\*.{cpp,h} rootdir
 
 ## Clone File Directory Structure
 - rsync -a --ignore-existing /local/directory/ host:/remote/directory/
