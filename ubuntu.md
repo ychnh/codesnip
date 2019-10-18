@@ -143,3 +143,6 @@ apt-get update
 apt-get remove pkg
 apt-get autoremove
 apt-get purge pkg
+
+# MAC Slow SSH
+May be you're not enthusiastic about hacking your SSH configuration files. Another solution is to add the IP addresses you're going to connect to (or which are going to connect to your mac) in /etc/hosts.
