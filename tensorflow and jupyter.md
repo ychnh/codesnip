@@ -7,6 +7,7 @@
 
 # Jupyter
 * Change Theme
+* jupyter notebook list
 * jt -t chesterish
 
 * jupyter notebook --port 8887
