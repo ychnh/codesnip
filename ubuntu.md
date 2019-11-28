@@ -146,3 +146,9 @@ apt-get purge pkg
 
 # MAC Slow SSH
 May be you're not enthusiastic about hacking your SSH configuration files. Another solution is to add the IP addresses you're going to connect to (or which are going to connect to your mac) in /etc/hosts.
+
+# Set/Read variables
+pwd > /tmp/loc
+cd "$(</tmp/loc)"
+cd "`</tmp/loc`"
+For more elab apporaches check [pass-variable-to-another-pane](https://superuser.com/questions/1067335/pass-variable-to-another-pane)
