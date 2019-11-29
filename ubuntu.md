@@ -157,3 +157,4 @@ For more elab apporaches check [pass-variable-to-another-pane](https://superuser
 
 # Tar
 ` tar -czf file.tar.gz directory `
+`tar -xvf`
