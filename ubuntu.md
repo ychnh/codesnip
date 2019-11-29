@@ -156,5 +156,7 @@ cd "`</tmp/loc`"
 For more elab apporaches check [pass-variable-to-another-pane](https://superuser.com/questions/1067335/pass-variable-to-another-pane)
 
 # Tar
-` tar -czf file.tar.gz directory `
-`tar -xvf`
+````
+tar -czf file.tar.gz directory 
+tar -xvf
+````
