@@ -9,6 +9,7 @@
 ### Find Large Directories
 ```
 du -a /home | sort -n -r | head -n 5
+du -h -d1
 ```
 ## Network
 # Find SSH Host
