@@ -162,3 +162,10 @@ For more elab apporaches check [pass-variable-to-another-pane](https://superuser
 tar -czf file.tar.gz directory 
 tar -xvf
 ````
+
+# ffmpeg
+decompl/compl
+````
+ffmpeg -ss 00:00 -i in.avi -t 05:07 %05d.png
+ffmpeg -r 20 -i %05d.png -vcodec mpeg4 -qscale 0 -y out.mp4
+````
