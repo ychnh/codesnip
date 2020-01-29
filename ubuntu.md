@@ -8,6 +8,7 @@
 
 ### Find Large Directories
 ```
+du --max-depth=1 -h
 du -a /home | sort -n -r | head -n 5
 du -h -d1
 ```
