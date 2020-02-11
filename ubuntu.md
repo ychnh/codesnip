@@ -168,4 +168,6 @@ decompl/compl
 ````
 ffmpeg -ss 00:00 -i in.avi -t 05:07 %05d.png
 ffmpeg -r 20 -i %05d.png -vcodec mpeg4 -qscale 0 -y out.mp4
+
+ffmpeg -i inVideo.mp4 -vf "select='between(t,30,30.5)+between(t,45,45.5)+between(t,73,73.5)" -s 320x240 -vsync 0 out%05d.png
 ````
