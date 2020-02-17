@@ -26,3 +26,8 @@ git pull
 
 * git remote add origin https://github.com/ychnh/repo_name
 * git push -u origin master
+
+# Reset all changes
+git checkout .
+## reset changes added
+git reset
