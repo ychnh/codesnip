@@ -3,23 +3,25 @@
 ```
 git config --global credential.helper store
 git pull
+
+git submodule add https://github.com/chaconinc/DbConnector
+
+git source url
+git pull (local branch up to date with remote)
+git status
+
+git diff
+git reset
+
+git add
+git commit
+git push
+git LFS
 ```
-- git submodule add https://github.com/chaconinc/DbConnector
-
-- git source url
-- git pull (local branch up to date with remote)
-- git status
-
-
-- git diff
-- git reset
-
-- git add
-- git commit
-- git push
-- git LFS
 ## Get url
-- git config --get remote.origin.url
+```
+git config --get remote.origin.url
+```
 ## Add New
 * Type git init.
 * Type git add to add all of the relevant files.
