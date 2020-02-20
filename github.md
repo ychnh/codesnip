@@ -2,12 +2,23 @@
 ## Password
 ```
 git config --global credential.helper store
+```
+## Submodules
+```
+git submodule add https://github.com/chaconinc/DbConnector
+```
+## Reset
+```
+# Revert all changes on file
+git checkout .
+# reset changes added
+git reset
+```
+## General
+```
 git pull
 
-git submodule add https://github.com/chaconinc/DbConnector
-
 git source url
-git pull (local branch up to date with remote)
 git status
 
 git diff
@@ -18,11 +29,11 @@ git commit
 git push
 git LFS
 ```
-## Get url
+## Get original url
 ```
 git config --get remote.origin.url
 ```
-## Add New
+## Add Existing Dir as Repo
 * Type git init.
 * Type git add to add all of the relevant files.
 * You’ll probably want to create a .gitignore file right away, to indicate all of the files you don’t want to track. Use git add .gitignore, too.
@@ -31,7 +42,3 @@ git config --get remote.origin.url
 * git remote add origin https://github.com/ychnh/repo_name
 * git push -u origin master
 
-# Reset all changes
-git checkout .
-## reset changes added
-git reset
