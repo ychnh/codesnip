@@ -11,6 +11,7 @@ git submodule add https://github.com/chaconinc/DbConnector
 ```
 # Revert all changes on file
 git checkout .
+
 # reset changes added
 git reset
 ```
