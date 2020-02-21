@@ -170,4 +170,6 @@ ffmpeg -ss 00:00 -i in.avi -t 05:07 %05d.png
 ffmpeg -r 20 -i %05d.png -vcodec mpeg4 -qscale 0 -y out.mp4
 
 ffmpeg -i raw/a1.avi -vf "select='between(t,2,59)+between(t,170,225)" an1-a1-2/%05d.png -vsync 0
+
+ffmpeg -r 20 -i /media/sec/semi/results/R-B2-b1-0/%*.png -qscale 0 -vcodec mpeg4 -y test.mp4
 ````
