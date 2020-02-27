@@ -6,6 +6,9 @@
 - https://unix.stackexchange.com/questions/159513/what-are-the-shells-control-and-redirection-operators
 # Linux Useful commands
 
+## Diff
+```
+diff --brief -x '*.py' A B
 ### Find Large Directories
 ```
 du --max-depth=1 -h
