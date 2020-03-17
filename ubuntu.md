@@ -12,9 +12,9 @@ diff --brief -x '*.py' A B
 ```
 
 ### Find Large Directories
-du --max-depth=1 -h
-du -a /home | sort -n -r | head -n 5
-du -h -d1
+* du --max-depth=1 -h
+* du -a /home | sort -n -r | head -n 5
+* du -h -d1
 ```
 ## Network
 # Find SSH Host
