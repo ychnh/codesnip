@@ -1,5 +1,6 @@
 # Github 
-https://danielmiessler.com/study/git/
+* https://danielmiessler.com/study/git/
+* git diff -- . ':(exclude)*.ipynb'
 
 ## Password
 ```
