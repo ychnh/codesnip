@@ -177,3 +177,9 @@ ffmpeg -i raw/a1.avi -vf "select='between(t,2,59)+between(t,170,225)" an1-a1-2/%
 
 ffmpeg -r 20 -i /media/sec/semi/results/R-B2-b1-0/%*.png -qscale 0 -vcodec mpeg4 -y test.mp4
 ````
+
+# Timezone
+* timedatectl
+* timedatectl list-timezones
+* sudo timedatectl set-timezone
+
