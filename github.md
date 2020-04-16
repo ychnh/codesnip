@@ -50,6 +50,8 @@ git checkout master
 git merge hotfix
 git branch -d hotfix
 ```
+## UNDO REVERT
+* https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-a-previous-commit
 ## Get original url
 ```
 git config --get remote.origin.url
