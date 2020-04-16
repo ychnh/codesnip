@@ -39,6 +39,14 @@ git add
 git commit
 git push
 git LFS
+
+
+git branch hotfix
+git checkout hotfix
+git commit -a -m 'Fix broken email address'
+git checkout master
+git merge hotfix
+git branch -d hotfix
 ```
 ## Get original url
 ```
