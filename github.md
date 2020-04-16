@@ -43,8 +43,7 @@ git LFS
 # Quick guide on branching #################
 https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
 ############################################
-git show-branch
-
+git show-branch (git branch -a)
 
 git branch hotfix
 git checkout hotfix
