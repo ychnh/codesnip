@@ -1,3 +1,24 @@
-* glob.glob('/folder/*')
-* os.system('rm -r folder')
-* sys.path.append('module')
+# Set GPU
+'''
+import os
+os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID" 
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+'''
+
+# Set Environpath Library
+'''
+import sys
+sys.path.insert(0,'repnet')
+sys.path.append('module')
+'''
+
+'''
+os.environ['LD_LIBRARY_PATH'] = os.environ.get('LD_LIBRARY_PATH','')
+os.environ['LD_LIBRARY_PATH'] += ':/usr/local/cuda-10.1/lib64’
+'''
+
+# BASH
+'''
+glob.glob('/folder/*')
+os.system('rm -r folder')
+'''
