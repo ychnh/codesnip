@@ -12,6 +12,7 @@ diff --brief -x '*.py' A B
 ```
 
 ### Find Large Directories
+* find . -name 'mystring*'
 * du --max-depth=1 -h
 * du -a /home | sort -n -r | head -n 5
 * du -h -d1
