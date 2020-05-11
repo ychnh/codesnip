@@ -1,3 +1,8 @@
+# Requirements txt
+```
+pip freeze > requirements.txt
+```
+
 # Set GPU
 ```python
 import os
