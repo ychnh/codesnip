@@ -26,6 +26,9 @@
 * sudo apt-get install curl
 * curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 * sudo apt-get install nodejs
+## remove code output from doc
+document.querySelectorAll("div.input").forEach(function(a){a.remove()})
+
 ## Widgets for Dashboard
 * pip install ipywidgets
 * jupyter nbextension enable --py widgetsnbextension
