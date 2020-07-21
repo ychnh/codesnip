@@ -33,7 +33,7 @@ git source url
 git status
 
 git diff
-git reset
+git reset --hard
 
 git add
 git commit
