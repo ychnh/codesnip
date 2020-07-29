@@ -67,5 +67,8 @@ git config --get remote.origin.url
 * git remote add origin https://github.com/ychnh/repo_name
 * git push -u origin master
 
+## Update Submodules
+* git submodule update --init --recursive
+
 ## Clone Private Repo
 git clone https://ychnh:passwordortoken@github.com/ychnh/repo_name.git
