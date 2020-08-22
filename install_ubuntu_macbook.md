@@ -1,3 +1,7 @@
+# Programs and 
+* tmux, neovim
+* i3
+
 # disable monitor on boot
 /etc/default/grub
 GRUB_CMDLINE_LINUX_DEFAULT="<default paramaters> video=LVDS-1:d"
