@@ -106,4 +106,4 @@ nnoremap <F11> :edit<Space>
 nnoremap <F9> :bd<cr>
 
 :set hlsearch
-
+set nofoldenable
