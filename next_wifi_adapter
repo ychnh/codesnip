@@ -1,0 +1,5 @@
+sudo apt-get install linux-headers-generic build-essential git
+git clone https://github.com/scrivy/rtl8812AU_8821AU_linux.git
+cd rtl8812AU_8821AU_linux
+make
+make install
