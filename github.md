@@ -65,6 +65,7 @@ git config --get remote.origin.url
 * Type git commit
 
 * git remote add origin https://github.com/ychnh/repo_name
+* git remote add origin git@github.com:ychnh/projectname.git
 * git push -u origin master
 
 ## Update Submodules
