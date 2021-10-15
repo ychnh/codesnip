@@ -72,5 +72,5 @@ git config --get remote.origin.url
 * git submodule update --init --recursive
 
 ## Clone Private Repo
-git clone https://ychnh:passwordortoken@github.com/ychnh/repo_name.git
-git clone ssh://git@github.com/ychnh/repo_name.git
+* git clone https://ychnh:passwordortoken@github.com/ychnh/repo_name.git
+* git clone ssh://git@github.com/ychnh/repo_name.git
