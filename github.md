@@ -73,3 +73,4 @@ git config --get remote.origin.url
 
 ## Clone Private Repo
 git clone https://ychnh:passwordortoken@github.com/ychnh/repo_name.git
+git clone ssh://git@github.com/ychnh/repo_name.git
