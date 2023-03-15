@@ -5,7 +5,7 @@
 * https://notes.harues.com/posts/hangul-input-using-fcitx/
 
 # gnome-tweaks
-* sudo apt-get install gnometweaks
+* sudo apt-get install gnome-tweaks
 
 # Find required packages workflow
 ```
