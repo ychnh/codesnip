@@ -4,6 +4,18 @@
 # korean fcitx
 * https://notes.harues.com/posts/hangul-input-using-fcitx/
 
+# gnome-tweaks
+* sudo apt-get install gnometweaks
+
+# Find required packages workflow
+```
+$ sudo apt-get install apt-file
+$ sudo apt-file update
+$ apt-file search "X11/extensions/Xinerama.h"
+libxinerama-dev: /usr/include/X11/extensions/Xinerama.h
+$ sudoi apt-get install libxinerama-dev
+```
+
 # dwm
 ```
 https://cannibalcandy.wordpress.com/2012/04/26/installing-and-configuring-dwm-under-ubuntu/
@@ -46,3 +58,4 @@ Alt+[num]
 Alt+Shift+Q
     Quit dwm
 ```
+
