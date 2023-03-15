@@ -16,6 +16,9 @@ libxinerama-dev: /usr/include/X11/extensions/Xinerama.h
 $ sudoi apt-get install libxinerama-dev
 ```
 
+# driver
+* downgrade to nvidia-435 driver
+
 # dwm
 ```
 https://cannibalcandy.wordpress.com/2012/04/26/installing-and-configuring-dwm-under-ubuntu/
