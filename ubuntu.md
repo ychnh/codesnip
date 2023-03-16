@@ -6,6 +6,19 @@
 - https://unix.stackexchange.com/questions/159513/what-are-the-shells-control-and-redirection-operators
 # Linux Useful commands
 
+
+## keyremap
+* ./xflux -z 90011 -k 2500
+* xmodmap -e 'clear Lock' -e 'keycode 0x42 = Super_L'
+
+## xrandr
+* xrandr --output eDP --mode 1680x1050 --set 'scaling mode' Full
+* xrandr --output HDMI-1-0 --auto --same-as eDP-1 --mode 2560x1440
+
+## sudo
+* run sudo with user's environment variables
+* sudo -E
+
 ## Diff
 ```
 diff --brief -x '*.py' A B
